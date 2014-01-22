@@ -1,8 +1,14 @@
-def reverser(string)
-	string.each { |strwrds| strwrds.split(" ").reverse }
+def reverser
+	yield.split.map! { |word| word.reverse}.join(" ")
 end
 
-def adder
+def adder(num = 1)
+	num = yield + num
+end
 
-def repeater
+def repeater(num = 1)
+	num.times do
+		yield
+	end
+
 end

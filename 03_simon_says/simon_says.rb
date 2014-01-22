@@ -19,5 +19,5 @@ def first_word(string)
 end
 
 def titleize(string)
-	string.split(' ')[]
+	string.split(' ').capitalize
 end

@@ -1,5 +1,6 @@
-vowel = A, E, I, O, U
-consonant = B, C, D, F, G, H, J, K, L, M, N, P, Q, R, S, T, V, W, X
+vowel = a, e, i, o, u
+consonant = b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x
 
 def translate(word)
+	if word[0] =
 end
